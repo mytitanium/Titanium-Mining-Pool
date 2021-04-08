@@ -1,0 +1,17 @@
+{
+    "name": "titanium",    
+    "symbol": "TTM",    
+    "algorithm": "kawpow",
+    
+    "wallet": "https://github.com/mytitanium/titaniumcore/releases",
+
+    "explorer":"http://144.91.109.177:3001/",
+    
+    "explorerGetBlockJSON": "http://144.91.109.177:3001/api/getrawtransaction?txid=",
+    "explorerGetBlock": "http://144.91.109.177:3001/block/",
+    "explorerGetTX": "http://144.91.109.177:3001/tx/",
+    
+    "blockTime": 60,
+    "blockChange": 1
+    
+}
