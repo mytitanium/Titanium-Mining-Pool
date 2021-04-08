@@ -1,0 +1,101 @@
+{
+    "enabled": true,
+    "coin": "titanium.json",
+
+    "address": "Xm7BfdzzHGLyKk2V6eqzYJPPUyHk2hqYAg",
+    
+    "donateaddress": "XhjKptemEpN33U729NHe4yp9eSb54d3CD4",
+
+    "rewardRecipients": {
+        "XhbzfphJEPFUyZm6xDQGnZbPmtY8REFsn5": 0.5
+    },
+
+    "paymentProcessing": {
+        "enabled": true,
+        "schema": "PROP",
+        "paymentInterval": 300,
+        "minimumPayment": 0.25,
+        "maxBlocksPerPayment": 10,
+        "minConf": 30,
+        "coinPrecision": 8,
+        "daemon": {
+            "host": "127.0.0.1",
+            "port": 9998,
+            "user": "ttmrpc",
+            "password": "sjkgksjfgsdflgns"
+        }
+    },
+
+     "ports": {
+	 	"4008": {
+             "diff": 0.1,
+    	     "varDiff": {
+    	         "minDiff": 0.05,
+    	         "maxDiff": 16,
+    	         "targetTime": 10,
+    	         "retargetTime": 60,
+    	         "variancePercent": 30,
+    	         "maxJump": 25
+    	     }
+         },
+         "4032": {
+	     	"diff": 2,
+            "varDiff": {
+                "minDiff": 1,
+                "maxDiff": 16,
+    	        "targetTime": 10,
+    	        "retargetTime": 60,
+    	        "variancePercent": 30,
+				"maxJump": 25
+            }
+        },
+        "4256": {
+	    	"diff": 1000,
+	    	"varDiff": {
+    	    "minDiff": 500,
+    		"maxDiff": 9000,
+    	    "targetTime": 10,
+    	    "retargetTime": 60,
+    	    "variancePercent": 30,
+    		"maxJump": 50
+    	    }
+        }
+    },
+
+    "daemons": [
+        {
+            "host": "127.0.0.1",
+            "port": 9998,
+            "user": "ttmrpc",
+            "password": "sjkgksjfgsdflgns"
+        }
+    ],
+
+    "p2p": {
+        "enabled": true,
+        "host": "127.0.0.1",
+        "port": 9999,
+        "disableTransactions": false
+    },
+
+    "mposMode": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 3306,
+        "user": "me",
+        "password": "mypass",
+        "database": "ltc",
+        "checkPassword": true,
+        "autoCreateWorker": false
+    },
+
+    "mongoMode": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "user": "",
+        "pass": "",
+        "database": "ltc",
+        "authMechanism": "DEFAULT"
+    }
+
+}

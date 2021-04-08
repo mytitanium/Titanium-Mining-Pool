@@ -21,11 +21,11 @@ package-lock.json
 ecosystem.config.js
 
 access-token
-config.json
+#config.json
 lzCode.conf
 matomoCode.conf
 
-pool_configs/*.json
+#pool_configs/*.json
 !pool_configs/*_example.json
 
 !.gitkeep
