@@ -1,6 +1,8 @@
 # nomp-kawpow-pool
 Highly Efficient mining pool for Raven Coin Kawpow algo!
 
+https://github.com/DirtyHarryDev/nomp-kawpow-pool
+
 -------
 ### Screenshots
 #### Home<br />
